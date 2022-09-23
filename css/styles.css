@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* MAIN */
+
+.hero {
+    height: 400px;
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+    .hero {
+        height: 600px;
+    }
+
+}
