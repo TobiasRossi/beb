@@ -40,12 +40,17 @@ body {
 }
 
 @media (min-width:992px) {
- .hero {
+    .hero {
     min-height: 90vh;
- }
+    }
 }
 
 /* DRUNKER */
+
+.infodrunker {
+    display: flex;
+    flex-direction: column;
+}
 
 .gallery {
     display: grid;
@@ -95,6 +100,16 @@ body {
 }
 
 @media (min-width:992px) {
+
+    .infodrunker {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .infodrunker__text {
+        grid-column-start: span 3;
+    }
+
     .gallery {
         grid-template-columns: repeat(5, 1fr);
     }
